@@ -1,0 +1,7 @@
+To crop the images at the same measures:
+
+(1) Take a screenshot with Snipping Tool
+(2) In https://croppola.com/ set the image in 16:9 and the measures at    
+    1141x642
+(3) In https://shots.so/ set the scale in & position in 64 and download it     in 4x 
+(4) In https://croppola.com/ set the image in 16:10 and the top in 229
