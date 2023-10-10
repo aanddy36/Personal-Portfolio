@@ -26,7 +26,7 @@ export const Navbar = () => {
           isSticky
             ? "fixed top-0 rounded-t-0 shadow-md"
             : "absolute top-8 rounded-t-lg shadow-none "
-        } ${isNavOpen ? "h-[310px]" : "h-[64px]"} bg-[#25162c]/50 backdrop-blur-md z-50  w-[95%] left-[50%] -translate-x-[50%] rounded-b-lg
+        } ${isNavOpen ? "h-[310px]" : "h-[64px]"} bg-[#25162c]/50 backdrop-blur-md z-[101]  w-[95%] left-[50%] -translate-x-[50%] rounded-b-lg
           overflow-hidden min-[600px]:h-16 `}>
         <nav
           className={` flex items-center pl-4

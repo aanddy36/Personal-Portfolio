@@ -25,7 +25,7 @@ export const PersonalCard = ({ rotationX, rotationY }: IAngles) => {
       <div className="w-[95%] h-[97%] border-4 border-[#5b3ff8] rounded-lg backdrop-blur-sm laptop:h-[90%]">
         <CardSection />
         <GithubCard />
-        <img
+        <img loading="lazy"
           src={pp}
           className="rounded-full top-[160px] left-[50%] w-[180px] -translate-x-[50%] shadow-pp tablet:top-[180px]
            tablet:w-[200px] absolute laptop:top-[100px] laptop:left-[60px] laptop:translate-x-0"

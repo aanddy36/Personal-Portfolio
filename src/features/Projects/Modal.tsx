@@ -56,13 +56,13 @@ export const Modal = ({
   
   return (
     <div
-      className="fixed inset-0 bg-black/60 z-[11] backdrop-blur-sm transition duration-200"
+      className="fixed inset-0 bg-black/60 z-[1000] backdrop-blur-sm transition duration-200"
       style={styles}
       onClick={() => setIsModalOpen(false)}
     >
       <div
         className=" w-[95%] tablet:w-[80%] laptop:w-[70%] full:w-[60%] min-[1200px]:w-[50%] fixed top-[50%] 
-          left-[50%] translate-x-[-50%] p-2 translate-y-[-50%] z-[12] bg-[#100316] overflow-hidden 
+          left-[50%] translate-x-[-50%] p-2 translate-y-[-50%] z-[102] bg-[#100316] overflow-hidden 
           transition duration-200 rounded-lg shadow-2xl"
         style={{ boxShadow: "0 0 10px 6px #0000006e" }}
         onClick={(e) => e.stopPropagation()}

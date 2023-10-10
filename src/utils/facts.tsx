@@ -1,38 +1,46 @@
 import { IFacts } from "../moduls";
+import graduation from '../images/about/graduation.png'
+import head from '../images/about/head.png'
+import languages from '../images/about/languages.png'
+import america from '../images/about/america.png'
+import musicnotes from '../images/about/music-notes.png'
+import microphone from '../images/about/microphone.png'
+import partners from '../images/about/partners.png'
+import pencil from '../images/about/pencil.png'
 
 ///src/images/logos/matlab.png
 export const myFacts:IFacts[] = [
-  { sentence: "23 years old.", url: "/src/images/about/head.png" },
+  { sentence: "23 years old.", url: head },
   {
     sentence: "Geologist graduated from Universidad del Norte.",
-    url: "/src/images/about/graduation.png",
+    url: graduation,
   },
   {
     sentence:
       "Fluent Spanish and English, and basic Portuguese.",
-    url: "/src/images/about/languages.png",
+    url: languages,
   },
   {
     sentence: "I did my university internship in Mississippi for 6 months.",
-    url: "/src/images/about/america.png",
+    url: america,
   },
   
   {
     sentence: "My favorite music genres are rap and indie rock.",
-    url: "/src/images/about/music-notes.png",
+    url: musicnotes,
   },
   {
     sentence: "In my free time I like to play the guitar and sing.",
-    url: "/src/images/about/microphone.png",
+    url: microphone,
   },
   {
     sentence:
       "Fast-learner, team-worker and dedicated person.",
-    url: "/src/images/about/partners.png",
+    url: partners,
   },
   {
     sentence: "I enjoy drawing hyperrealistc portraits.",
-    url: "/src/images/about/pencil.png",
+    url: pencil,
   },/*
   {
     sentence:

@@ -1,93 +1,112 @@
 import { ILogos } from "../moduls";
+import react from '../images/logos/react.png'
+import typescript from '../images/logos/typescript.png'
+import redux from '../images/logos/redux.png'
+import reactrouter from '../images/logos/react-router.png'
+import js from '../images/logos/js.png'
+import tailwind from '../images/logos/tailwind.png'
+import matlab from '../images/logos/matlab.png'
+import node from '../images/logos/node.png'
+import html from '../images/logos/html.png'
+import qgis from '../images/logos/qgis.png'
+import css from '../images/logos/css.png'
+import reactquery from '../images/logos/react-query.png'
+import postgresql from '../images/logos/postgresql.png'
+import supabase from '../images/logos/supabase.png'
+import netlify from '../images/logos/netlify.png'
+import vscode from '../images/logos/vscode.png'
+import git from '../images/logos/git.png'
+import github from '../images/logos/github.png'
+
 
 export let listOfLogos: ILogos[] = [
   {
-    logo: '/src/images/logos/react.png',
+    logo: react,
     clas: "react",
     name: "React",
   },
   {
-    logo: '/src/images/logos/typescript.png',
+    logo: typescript,
     clas: "ts",
     name: "TypeScript",
   },
   {
-    logo: '/src/images/logos/redux.png',
+    logo: redux,
     clas: "redux",
     name: "Redux",
   },
   {
-    logo: '/src/images/logos/react-router.png',
+    logo: reactrouter,
     clas: "reactrouter",
     name: "React Router",
   },
   {
-    logo: '/src/images/logos/js.png',
+    logo: js,
     clas: "js",
     name: "JavaScript",
   },
   {
-    logo: '/src/images/logos/tailwind.png',
+    logo: tailwind,
     clas: "tailwind",
     name: "Tailwind",
   },
   {
-    logo: '/src/images/logos/css.png',
+    logo: css,
     clas: "css",
     name: "CSS",
   },
   {
-    logo: '/src/images/logos/html.png',
+    logo: html,
     clas: "html",
     name: "HTML",
   },
   {
-    logo: '/src/images/logos/node.png',
+    logo: node,
     clas: "node",
     name: "NodeJs",
   },
   {
-    logo: '/src/images/logos/matlab.png',
+    logo: matlab,
     clas: "matlab",
     name: "MatLab",
   },
   {
-    logo: '/src/images/logos/qgis.png',
+    logo: qgis,
     clas: "qgis",
     name: "QGIS",
   },
   {
-    logo: '/src/images/logos/github.png',
+    logo: github,
     clas: "github",
     name: "GitHub",
   },
   {
-    logo: '/src/images/logos/git.png',
+    logo: git,
     clas: "git",
     name: "Git",
   },
   {
-    logo: '/src/images/logos/netlify.png',
+    logo: netlify,
     clas: "netlify",
     name: "Netlify",
   },
   {
-    logo: '/src/images/logos/react-query.png',
+    logo: reactquery,
     clas: "reactquery",
     name: "React Query",
   },
   {
-    logo: '/src/images/logos/vscode.png',
+    logo: vscode,
     clas: "vscode",
     name: "VSCode",
   },
   {
-    logo: '/src/images/logos/supabase.png',
+    logo: supabase,
     clas: "supabase",
     name: "Supabase",
   },
   {
-    logo: '/src/images/logos/postgresql.png',
+    logo: postgresql,
     clas: "postgresql",
     name: "PostgreSQL",
   },
