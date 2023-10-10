@@ -1,7 +1,7 @@
 import { FaCloudDownloadAlt } from "react-icons/fa";
+import fileUrl from '../utils/andres-del-chiaro.pdf'
 
 function DownloadButton() {
-  const fileUrl = "/src/utils/andres-del-chiaro.pdf";
 
   const handleDownloadClick = () => {
     const anchor = document.createElement("a");
