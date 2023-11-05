@@ -8,9 +8,46 @@ import flagsAfrica from "../images/flags/flags-africa.png";
 import flagsEnd from "../images/flags/flags-end.png";
 import triviaQuestion from "../images/trivia/trivia-question.png";
 import triviaEnd from "../images/trivia/trivia-end.png";
+import astroxMain from "../images/astroxplorer/astroxplorer-main.jpg";
+import astroxFilter from "../images/astroxplorer/astroxplorer-filter.jpg";
+import astroxPluto from "../images/astroxplorer/astroxplorer-pluto.jpg";
 //import portrait from "../utils/background.png";
 
 export const personalProjects: IProjects[] = [
+  {
+    id: 1,
+    title: "AstroXplorer",
+    description: `This completely functional tour website is about AstroXplorer, a fake company that provides interplanetary tours. Here you will find all the sections and functionalities that a tour provider company should have: tours catalog (w/ filtering, sorting, and pagination), authentication, favorite tours (user required), pricing, reviews (w/ sorting), About us.`,
+    portrait: astroxMain,
+    technologies: [
+      "React",
+      "TypeScript",
+      "Tailwind",
+      "React Router",
+      "Redux",
+      "Supabase",
+      "PostgreSQL",
+    ],
+    githubRepo: "https://github.com/aanddy36/AstroXplorer",
+    url: "https://astroxplorer.netlify.app/",
+    imagesModal: [
+      {
+        image: astroxMain,
+        position: 1,
+        status: "active",
+      },
+      {
+        image: astroxFilter,
+        position: 2,
+        status: "before",
+      },
+      {
+        image: astroxPluto,
+        position: 3,
+        status: "after",
+      },
+    ],
+  },
   {
     id: 1,
     title: "The Trivia Quiz",
@@ -51,7 +88,15 @@ export const personalProjects: IProjects[] = [
     description:
       "An English dictionary which displays meanings, examples, syllables, antonyms and synonyms of the English word you like. Created using the WordsAPI from RapidAPI",
     portrait: wordrowMain,
-    technologies: ["React", "JavaScript", "React Router", "CSS", "HTML", "TypeScript", "Tailwind"],
+    technologies: [
+      "React",
+      "JavaScript",
+      "React Router",
+      "CSS",
+      "HTML",
+      "TypeScript",
+      "Tailwind",
+    ],
     githubRepo: "https://github.com/aanddy36/English-Dictionary",
     url: "https://wordrow.netlify.app/",
     imagesModal: [
