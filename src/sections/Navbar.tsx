@@ -1,5 +1,6 @@
 import { useEffect, useState } from "react";
 import { FaBars, FaEnvelope, FaGithub, FaLinkedin } from "react-icons/fa6";
+import { motion } from "framer-motion"
 
 export const Navbar = () => {
   const [isSticky, setIsSticky] = useState(false);
